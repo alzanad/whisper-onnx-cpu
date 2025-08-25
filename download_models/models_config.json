@@ -1,0 +1,147 @@
+{
+    "_notice": "🚨 تنويه: هذا الملف منفصل تماماً عن مشروع Whisper الأساسي - مخصص فقط لأداة تنزيل النماذج 🚨",
+    "tiny.en": {
+        "dimensions": {
+            "n_mels": 80,
+            "n_vocab": 51864,
+            "n_audio_ctx": 1500,
+            "n_audio_state": 384,
+            "n_audio_head": 6,
+            "n_audio_layer": 4,
+            "n_text_ctx": 448,
+            "n_text_state": 384,
+            "n_text_head": 6,
+            "n_text_layer": 4
+        },
+        "urls": {
+            "encoder": "https://s3.ap-northeast-2.wasabisys.com/pinto-model-zoo/381_Whisper/onnx/tiny.en_encoder_11.onnx",
+            "decoder": "https://s3.ap-northeast-2.wasabisys.com/pinto-model-zoo/381_Whisper/onnx/tiny.en_decoder_11.onnx"
+        }
+    },
+    "tiny": {
+        "dimensions": {
+            "n_mels": 80,
+            "n_vocab": 51865,
+            "n_audio_ctx": 1500,
+            "n_audio_state": 384,
+            "n_audio_head": 6,
+            "n_audio_layer": 4,
+            "n_text_ctx": 448,
+            "n_text_state": 384,
+            "n_text_head": 6,
+            "n_text_layer": 4
+        },
+        "urls": {
+            "encoder": "https://s3.ap-northeast-2.wasabisys.com/pinto-model-zoo/381_Whisper/onnx/tiny_encoder_11.onnx",
+            "decoder": "https://s3.ap-northeast-2.wasabisys.com/pinto-model-zoo/381_Whisper/onnx/tiny_decoder_11.onnx"
+        }
+    },
+    "base.en": {
+        "dimensions": {
+            "n_mels": 80,
+            "n_vocab": 51864,
+            "n_audio_ctx": 1500,
+            "n_audio_state": 512,
+            "n_audio_head": 8,
+            "n_audio_layer": 6,
+            "n_text_ctx": 448,
+            "n_text_state": 512,
+            "n_text_head": 8,
+            "n_text_layer": 6
+        },
+        "urls": {
+            "encoder": "https://s3.ap-northeast-2.wasabisys.com/pinto-model-zoo/381_Whisper/onnx/base.en_encoder_11.onnx",
+            "decoder": "https://s3.ap-northeast-2.wasabisys.com/pinto-model-zoo/381_Whisper/onnx/base.en_decoder_11.onnx"
+        }
+    },
+    "base": {
+        "dimensions": {
+            "n_mels": 80,
+            "n_vocab": 51865,
+            "n_audio_ctx": 1500,
+            "n_audio_state": 512,
+            "n_audio_head": 8,
+            "n_audio_layer": 6,
+            "n_text_ctx": 448,
+            "n_text_state": 512,
+            "n_text_head": 8,
+            "n_text_layer": 6
+        },
+        "urls": {
+            "encoder": "https://s3.ap-northeast-2.wasabisys.com/pinto-model-zoo/381_Whisper/onnx/base_encoder_11.onnx",
+            "decoder": "https://s3.ap-northeast-2.wasabisys.com/pinto-model-zoo/381_Whisper/onnx/base_decoder_11.onnx"
+        }
+    },
+    "small.en": {
+        "dimensions": {
+            "n_mels": 80,
+            "n_vocab": 51864,
+            "n_audio_ctx": 1500,
+            "n_audio_state": 768,
+            "n_audio_head": 12,
+            "n_audio_layer": 12,
+            "n_text_ctx": 448,
+            "n_text_state": 768,
+            "n_text_head": 12,
+            "n_text_layer": 12
+        },
+        "urls": {
+            "encoder": "https://s3.ap-northeast-2.wasabisys.com/pinto-model-zoo/381_Whisper/onnx/small.en_encoder_11.onnx",
+            "decoder": "https://s3.ap-northeast-2.wasabisys.com/pinto-model-zoo/381_Whisper/onnx/small.en_decoder_11.onnx"
+        }
+    },
+    "small": {
+        "dimensions": {
+            "n_mels": 80,
+            "n_vocab": 51865,
+            "n_audio_ctx": 1500,
+            "n_audio_state": 768,
+            "n_audio_head": 12,
+            "n_audio_layer": 12,
+            "n_text_ctx": 448,
+            "n_text_state": 768,
+            "n_text_head": 12,
+            "n_text_layer": 12
+        },
+        "urls": {
+            "encoder": "https://s3.ap-northeast-2.wasabisys.com/pinto-model-zoo/381_Whisper/onnx/small_encoder_11.onnx",
+            "decoder": "https://s3.ap-northeast-2.wasabisys.com/pinto-model-zoo/381_Whisper/onnx/small_decoder_11.onnx"
+        }
+    },
+    "medium.en": {
+        "dimensions": {
+            "n_mels": 80,
+            "n_vocab": 51864,
+            "n_audio_ctx": 1500,
+            "n_audio_state": 1024,
+            "n_audio_head": 16,
+            "n_audio_layer": 24,
+            "n_text_ctx": 448,
+            "n_text_state": 1024,
+            "n_text_head": 16,
+            "n_text_layer": 24
+        },
+        "urls": {
+            "encoder": "https://s3.ap-northeast-2.wasabisys.com/pinto-model-zoo/381_Whisper/onnx/medium.en_encoder_11.onnx",
+            "decoder": "https://s3.ap-northeast-2.wasabisys.com/pinto-model-zoo/381_Whisper/onnx/medium.en_decoder_11.onnx"
+        }
+    },
+    "medium": {
+        "dimensions": {
+            "n_mels": 80,
+            "n_vocab": 51865,
+            "n_audio_ctx": 1500,
+            "n_audio_state": 1024,
+            "n_audio_head": 16,
+            "n_audio_layer": 24,
+            "n_text_ctx": 448,
+            "n_text_state": 1024,
+            "n_text_head": 16,
+            "n_text_layer": 24
+        },
+        "urls": {
+            "encoder": "https://s3.ap-northeast-2.wasabisys.com/pinto-model-zoo/381_Whisper/onnx/medium_encoder_11.onnx",
+            "decoder": "https://s3.ap-northeast-2.wasabisys.com/pinto-model-zoo/381_Whisper/onnx/medium_decoder_11.onnx"
+        }
+    }
+}

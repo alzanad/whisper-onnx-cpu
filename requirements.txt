@@ -1,0 +1,9 @@
+numpy
+onnx
+onnxruntime
+requests
+psutil
+tqdm
+transformers
+sentencepiece
+ffmpeg-python
