@@ -1,9 +1,5 @@
 # 🎤 Whisper ONNX CPU
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
-[![ONNX](https://img.shields.io/badge/ONNX-Optimized-green.svg)](https://onnx.ai)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
 > مشروع Whisper محوّل إلى صيغة ONNX للتشغيل السريع والفعّال على المعالجات المحلية بدون الحاجة لكروت الرسومات
 
 ## 📖 حول المشروع
